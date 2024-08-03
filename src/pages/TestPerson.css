@@ -1,0 +1,64 @@
+.form-container {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 15px 10px 5px rgba(19, 7, 7, 0.1);
+    padding: 16px;
+    background-color: #fff;
+    max-width: 500px;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}
+
+.form-button {
+    background-color: #007bff;
+    /* Cor de fundo azul */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 4px;
+    /* Bordas arredondadas */
+    padding: 10px 20px;
+    /* Espaçamento interno (vertical horizontal) */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor de mão ao passar sobre o botão */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Transição suave para cor e efeito de escala */
+    text-align: center;
+    /* Alinhamento do texto */
+    display: inline-block;
+    /* Garante que o botão tenha o tamanho adequado */
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+    /* Cor de fundo ao passar o mouse */
+}
+
+.form-button:active {
+    background-color: #004080;
+    /* Cor de fundo quando clicado */
+    transform: scale(0.98);
+    /* Efeito de redução ao clicar */
+}
+
+
+.form-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Faz com que cada label ocupe uma linha inteira */
+    font-size: 14px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+    margin-bottom: 8px;
+    /* Espaçamento abaixo da label */
+    color: #333;
+    /* Cor do texto */
+    line-height: 1.5;
+    /* Espaçamento entre linhas */
+}
